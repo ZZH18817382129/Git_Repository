@@ -1,0 +1,88 @@
+[
+  {
+    "title": "收款管理",
+    "icon": "icon-computer",
+    "href": "",
+    "spread": false
+  },
+  {
+    "title": "收款条款报备",
+    "icon": "&#xe630;",
+    "href": "",
+    "spread": false,
+    "children": [
+      {
+        "title": "手动添加",
+        "icon": "&#xe609;",
+        "href": "add/manualAdd.do",
+        "spread": false
+      },
+      {
+        "title": "导入数据",
+        "icon": "&#xe609;",
+        "href": "add/importData.do",
+        "spread": false
+      }
+    ]
+  },
+  {
+    "title": "收款条款追踪",
+    "icon": "&#xe630;",
+    "href": "",
+    "spread": false,
+    "children": [
+      {
+        "title": "手动添加",
+        "icon": "&#xe609;",
+        "href": "trace/manualAdd.do",
+        "spread": false
+      },
+      {
+        "title": "导入数据",
+        "icon": "&#xe609;",
+        "href": "trace/importData.do",
+        "spread": false
+      }
+    ]
+  },
+  {
+    "title": "收款条款汇总",
+    "icon": "&#xe630;",
+    "href": "",
+    "spread": false,
+    "children": [
+      {
+        "title": "收款追踪汇总",
+        "icon": "&#xe61c;",
+        "href": "sales/summate.do",
+        "spread": false
+      },
+      {
+        "title": "逾期收款汇总",
+        "icon": "&#xe61c;",
+        "href": "overdue/summate.do",
+        "spread": false
+      },
+      {
+        "title": "销售平台收款汇总",
+        "icon": "&#xe61c;",
+        "href": "salesPlatform/summate.do",
+        "spread": false
+      }
+    ]
+  },
+  {
+    "title": "收款条款维护",
+    "icon": "&#xe630;",
+    "href": "",
+    "spread": false,
+    "children": [
+      {
+        "title": "客户信息维护",
+        "icon": "&#xe61c;",
+        "href": "maintain/customerInfo.do",
+        "spread": false
+      }
+    ]
+  }
+]
